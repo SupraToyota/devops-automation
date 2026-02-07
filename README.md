@@ -1,13 +1,19 @@
-# DevOps Automation Scripts
-Collection of utility scripts for system administration and monitoring.
+# DevOps Automation Scripts 
+
+A collection of utility scripts for system administration, monitoring, and daily DevOps tasks.
 
 ## Contents
-1. **server_health.py** - Python script to monitor Disk and CPU usage.
-2. **auto_backup.sh** - Bash script for automated daily backups.
-3. **setup_env.sh** - Bootstrap script for initializing new Linux servers.
+
+| Script | Language | Description |
+|--------|----------|-------------|
+| **`server_health.py`** | Python | Monitors system health (Disk Usage & CPU Load). Alerts if thresholds are exceeded. |
+| **`auto_backup.sh`** | Bash | Automates directory archiving and backup creation with timestamping. |
+| **`setup_env.sh`** | Bash | Bootstrap script for initializing new Linux servers with essential tools. |
+| **`get_repo_url.sh`** | Bash | Interactive tool to quickly generate Git SSH URLs for repositories. |
 
 ## Usage
-Run scripts directly from terminal:
-```bash
-python3 server_health.py
-./auto_backup.sh
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/devops-automation.git](https://github.com/YOUR_USERNAME/devops-automation.git)
+   cd devops-automation
